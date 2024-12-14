@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+</head>
+<body>
+    <form style="background-color:yellow; border-radius:20px;">
+        <h1><center>USER REGISTRATION FORM</center></h1>
+        <fieldset style="background-color: rgb(30, 230, 230);border-radius:20px">
+            <legend style="background-color: rgb(226, 120, 176);">Personal Details</legend>
+            <label for="name">First Name:</label>
+            <input type="text" name="name" placeholder="enter first name" id="name">
+            <label for="name">Last Name:</label>
+            <input type="text" name="name" placeholder="enter last name" id="name"><br><br>
+            <label for="location">Address:</label>
+            <input type="text" name="location" placeholder="enter address" id="">
+            Near City:<select name="" id="">
+                <option value="1">Srikakulam</option>
+                <option value="2">Parvathipuram</option>
+                <option value="3">Vishakapatnam</option>
+                <option value="3">Vijayawada</option>
+                <option value="3">Kadapa</option>
+            </select><br><br>
+            <label for="telephone">Ph.no:</label>
+            <input type="tel" name="number" placeholder="enter ph.number" id=""><br><br>
+            <label for="date">Date:</label>
+            <input type="date" name="date" id=""><br><br>
+            <label gender>Gender:</label>
+            <input type="radio" name="gender" placeholder="Male" id="">Male
+            <input type="radio" name="gender" placeholder="Female" id="">Female
+            <br><br>
+        </fieldset> <br>
+        <fieldset style="background-color: rgb(30, 230, 230);border-radius: 20px;"> 
+            <legend style="background-color:rgb(226,120,176);">Student Details</legend> 
+            <label for="Institute">Institute Name:</label>
+            <input type="institute" name="institute" placeholder="Institute name" id=""><br><br>
+            <label for="number">Roll no:</label>
+            <input type="number" name="number" placeholder="enter rollno" id="">
+            Branch:<select name="" id="">
+                <option value="1">IT</option>
+                <option value="2">CSE</option>
+                <option value="3">ECE</option>
+                <option value="4">EEE</option>
+                <option value="5">Civil</option>
+                <option value="6">MECK</option>
+            </select>
+            Section:<select name="" id="">
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+            </select><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="enter email" id=""><br><br>
+        </fieldset><br>
+            Feedback:<select name="" id="" style="background-color: rgb(226, 120, 176);">
+                <option value="1">Excellent</option>
+                <option value="1">Good</option>
+                <option value="1">Average</option>
+                <option value="1">Not Bad</option>
+                <option value="1">Poor</option>
+            </select><br><br>
+            <textarea name="" id="" placeholder="Suggestions" style="background-color: aqua;" ></textarea><br>
+        </fieldset>
+        <br>
+        <button style="background-color: rgb(94, 225, 58);">Register</button>
+    </form>
+</body>
+</html>
