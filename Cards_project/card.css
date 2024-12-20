@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #f8f4f4;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(https://img.lovepik.com/photo/40057/8890.jpg_wh860.jpg);
+    background-size: cover;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.card{
+    width:300px;
+    background-color: #f3b782;
+    border-radius: 30px;
+    overflow:hidden;
+    box-shadow: 10px 10px 10px;
+    margin: 15px;
+    transform: transform 0.6s ease;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+button{
+    padding: 5px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color:rgb(221, 149, 61);
+}
+button:hover{
+    background-color: rgb(106, 32, 18);
+    border-radius: 30px;
+    color: rgb(230, 237, 234);
+    font-style: italic;
+    text-shadow: rgb(244, 91, 91);
+}
+h3{
+    text-align: center;
+}
+img{
+    height: 200px;
+}
+footer {
+    background-color: rgb(44, 93, 95);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+  }
+  .footer-info {
+    margin: 10px;
+
+  }
+  .footer-info p {
+    font-size: 1rem;
+    color: #ddc4c4;
+  }
